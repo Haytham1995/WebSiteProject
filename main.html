@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="signMenuStyle.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('li a').click(function(){
+                  $('li a').each(function(a){
+                    $( this ).removeClass('selectedclass')
+                  });
+                  $( this ).addClass('selectedclass');
+                });
+               
+               $('ul a').click(function(){
+                  $('ul a').each(function(a){
+                   $( this ).removeClass('selectedclass')
+                  });
+                  $( this ).addClass('selectedclass');
+                });
+             });
+
+        </script>
+</head>
+<body style="background-image: url('images/background.jpg'); background-repeat: no-repeat; background-size: 100%; min-width:1000px; width: auto !important; width:1000px;"></body>
+    <div class="header">
+        <ul style="font-weight: bold;">
+            <li><a href="home.html" target="signIn_frame">Home</a></li>
+            <li><a href="signIn.html" target="signIn_frame">Log in</a></li>
+            <li><a href="signUp.html" target="signIn_frame">Register</a></li>
+        </ul>
+    </div>
+    <div class="pageContent">
+    <iframe src="home.html" name="signIn_frame">
+    </iframe>
+    </div>
+<div class="footer">
+    <p>
+        Thanks for supporting me | H.Halabi
+    </p>
+</div>
+</body>
+</html>

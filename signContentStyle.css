@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.content{
+    height: 300px;
+    padding: 0px;
+}
+
+.infoContainer{
+    padding-top: 100px;
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+}
+
+.imageContainer{
+    border-right: 1px solid gray;
+    width: 40%;
+    float: left;
+}
+
+input[type=text],input[type=email],input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #4CAF50 ;
+    border-radius: 50px;
+
+}
+
+.button {
+    background-color: #4CAF50 ; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50 ;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+#profileImage{
+    max-height: 70%;
+    max-width: 90%;
+    padding: 0px;
+    padding-left: 250px;
+    margin: 0px;
+}
