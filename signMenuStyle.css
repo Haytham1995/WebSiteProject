@@ -1,4 +1,4 @@
-.header ul {
+header ul {
     position: absolute;
     right: 0;
     top: 0;
@@ -9,8 +9,8 @@
     overflow: hidden;
     background-color: grey;
 }
-.footer{
-    position: absolute;
+footer{
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
@@ -20,30 +20,29 @@
     text-align: center;
 }
 iframe {
-    position:fixed;
-    top:100px;
-    bottom:0px;
+    top:50px;
+    bottom:50px;
     right:0px;
+    left: 0px;
     width: 100%;
-    border: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    z-index:999999;
     height: 100%;
-    min-width: 100px; 
+    padding:0;
+    min-width: 100px;
+    overflow: hidden;
+    position:fixed;
+    border: none;
 }
-.header li {
+header li {
     float: left;
 }
-.header li a {
+header li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
-.header li a:hover {
+header li a:hover {
     background-color:black;
 }
 .pageContent{
